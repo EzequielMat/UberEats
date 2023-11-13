@@ -1,38 +1,31 @@
+@font-face {
+    font-family: roboto;
+    src: url(../font/roboto.woff2);
+}
 * {
     box-sizing: border-box;
-    
+
 }
-html{
-    height: 100%;
-    width: 80%;
-    margin: 0 auto;
-}
-body {
-    height: 100%;
+body{
+    font-family: roboto;
     margin: 0;
 }
-main{
-    height: 100%;
+.justify-content-between {
+    justify-content: space-between;
 }
-.row{
+.justify-content-center {
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}
+.row {
     display: flex;
 }
-nav{
-    margin: 0 auto;
-    padding: 30px 20px 20px 20px;
+header {
+    padding: 6px 30px;
 }
-
-.logo {
-    position: relative;
-}
-.formulario{
-    
-    position: absolute;
-    top: 0;
-    right: 120px;
-    padding: 20px 20px 20px 20px;
-}
-.sesion{
+.sesion {
     font-weight: bold;
     font-size: 14px;
     align-items: left;
@@ -40,9 +33,6 @@ nav{
     border: 1px solid rgb(233, 233, 233);
     background-color: rgb(253, 251, 251);
     padding: 10px 10px;
-}
-.sesion img{
-    width: 12px;
 }
 .registro {
     font-weight: bold;
@@ -52,32 +42,127 @@ nav{
     background-color: rgb(0, 0, 0);
     color: white;
 }
-.principal{
+.h-500{
+    height: 500px;
+}
+.bg1{
+    width: 50%;
+    background-image: url(../img/fondo1.svg);
+    background-repeat: no-repeat;
+}
+.bg2{
+    width: 50%;
+    background-image: url(../img/fondo2.svg);
+    background-repeat: no-repeat;
+    background-position-x:right;
+}
+.position-relative{
     position: relative;
-    height: 50%;
-    background-color: rgb(255, 242, 216);
-    
 }
-.p-texto {
+.position-absolute{
     position: absolute;
-    right: 20%;
-    top: 40%;
-    width: 34%;
-    
-}
-.p-derecha {
-    position: absolute;
-    right: 0;
-    width: 34%;
-    
-}
-.p-izquierda {
-    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
     left: 0;
-    width: 32%;
+}
+.bg-beige {
+ background-color: #fff2d8;
+}
+.text-center{
+    text-align: center;
+}
+.impit{
+    width: 300px;
+    padding: 6px 30px;
+    background-image: url(../img/map-market.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: center;
+    border: 0;
+}
+.enviar {
+    padding: 6px;
+    border-radius: 8px;
+}
+.imagenes{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px;
     
 }
+.imagenes2{
+    width: 100%;
+    padding: 0 10px;
+    
+}
+a {
+    color: grey;
+    font-size: 14px;
+    
+}
+.fondo{
+    background-color: red;
+}
+.categorias{
+    padding: 5px 30px;
 
+}
+.tamano{
+    margin: 0 5px;
+    width: 200px;
+    height: 60px;
+    padding: 10px 10px;
+}
+.foto1{
+    background-image: url(../img/FastFood.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+    background-color: #f5f0ea;
+}
+.foto2{
+    background-image: url(../img/American.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+    background-color: #f5f0ea;
+}
+.foto3{
+    background-image: url(../img/Chinese.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+    background-color: #f5f0ea;
+}
+.foto4{
+    background-image: url(../img/FastFood.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+    background-color: #f5f0ea;
+}
+.foto5{
+    background-image: url(../img/Asian.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+    background-color: #f5f0ea;
+}
+.foto6{
+    background-image: url(../img/FastFood.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+    background-color: #f5f0ea;
+}
+.foto7{
+    background-image: url(../img/FastFood.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+    background-color: #f5f0ea;
+}
 
 
 

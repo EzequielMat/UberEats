@@ -1,28 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uber</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <nav>
+    <header class="row justify-content-between align-items-center">
         <div class="logo"><img src="img/logo.svg" alt="logo"></div>
-        <div class="formulario">
-            <form action="#" method="post">
-                <button class="sesion"><img src="img/personita.png" alt=""> Iniciar sesión</button>
-                <button class="registro">Registrarse</button>
-            </form>
-        </div>
-    </nav>
+
+        <form action="#" method="post">
+            <button class="sesion"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Iniciar sesión</button>
+            <button class="registro">Registrarse</button>
+        </form>
+
+    </header>
     <main>
-        <div class="principal">
-            <!--Me quede haciendo el buscador de comida no estoy seguro xddd-->
-            <div class="p-texto"></div>
-            <div class="p-izquierda"><img src="img/fondo1.svg" alt=""></div>
-            <div class="p-derecha"><img src="img/fondo2.svg" alt=""></div>
+        <div class="row justify-content-between h-500 bg-beige position-relative">
+            <div class="bg1"></div>
+            <div class="bg2"></div>
+            <div class="position-absolute row justify-content-center align-items-center">
+                <div>
+                    <h2 class="text-center">Comida a domicilio en Toledo</h2>
+                    <form action="#" method="post">
+                        <input type="text" name="direccion" id="" class="impit"
+                            placeholder="Introduce la dirección de entrega"> &nbsp;&nbsp;
+                        <input type="submit" value="Buscar comida" class="enviar registro">
+                    </form>
+                </div>
+            </div>
         </div>
+        <div class="row justify-content-between imagenes">
+            <div class="imagenes2 "><img width="100%" src="img/new1.webp" alt="">
+
+                <h3>Prporciona comida a tus empreados</h3>
+                <a href="#">Crea una cuenta de empresa</a>
+            </div>
+            <div class="imagenes2"><img width="100%" src="img/new2.webp" alt=""></div>
+            <div class="imagenes2"><img width="100%" src="img/new3.webp" alt=""></div>
+        </div>
+        <div class="categorias row">
+            <h4>Explora por categorias</h4>
+        </div>
+        <div class="categorias row">
+            <div class="tamano foto1">Comida rápida</div>
+            <div class="tamano foto2">dsaads</div>
+            <div class="tamano foto3">dsaads</div>
+            <div class="tamano foto4">dsaads</div>
+            <div class="tamano foto5">dsaads</div>
+            <div class="tamano foto6">dsaads</div>
+            
+        </div>
+        <div class="categorias row">
+            <div class="tamano foto7">dsaads</div>
+            <div class="tamano foto8">dsaads</div>
+            <div class="tamano foto9">dsaads</div>
+            <div class="tamano foto10">dsaads</div>
+            <div class="tamano foto11">dsaads</div>
+            <div class="tamano foto12">dsaads</div>  
+        </div>
+            
+            
+
+        
     </main>
 </body>
 
