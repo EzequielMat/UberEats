@@ -28,7 +28,9 @@ body {
 .row {
     display: flex;
 }
-
+.wrap{
+    flex-wrap: wrap;
+}
 header {
     padding: 12px 30px;
 }
@@ -128,105 +130,15 @@ a {
 
 }
 
-.tamano {
-    margin: 0 5px;
-    width: 200px;
-    height: 60px;
-    padding: 10px 10px;
-}
-
-.foto1 {
-    background-image: url(../img/FastFood.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: contain;
+.col-6 {
+    width: 16%;
     background-color: #f5f0ea;
+    font-size: 10px;
+    padding-top: 6px;
+    padding-left: 6px;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
-
-.foto2 {
-    background-image: url(../img/American.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: contain;
-    background-color: #f5f0ea;
-}
-
-.foto3 {
-    background-image: url(../img/Chinese.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: contain;
-    background-color: #f5f0ea;
-}
-
-.foto4 {
-    background-image: url(../img/italiana.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: contain;
-    background-color: #f5f0ea;
-}
-
-.foto5 {
-    background-image: url(../img/Asian.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: contain;
-    background-color: #f5f0ea;
-}
-
-.foto6 {
-    background-image: url(../img/Thai.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: contain;
-    background-color: #f5f0ea;
-}
-
-.foto7 {
-    background-image: url(../img/Breakfast.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: contain;
-    background-color: #f5f0ea;
-}
-
-.foto8 {
-    background-image: url(../img/Mexican.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: contain;
-    background-color: #f5f0ea;
-}
-
-.foto9 {
-    background-image: url(../img/Japanese.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: contain;
-    background-color: #f5f0ea;
-}
-
-.foto10 {
-    background-image: url(../img/Healthy.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: contain;
-    background-color: #f5f0ea;
-}
-
-.foto11 {
-    background-image: url(../img/Indian.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: contain;
-    background-color: #f5f0ea;
-}
-
-.foto12 {
-    background-image: url(../img/Alcohol.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: contain;
-    background-color: #f5f0ea;
+.col-6 img {
+    width: 50px;
 }
